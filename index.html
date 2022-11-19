@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <title>Bloco</title>
+</head>
+<body>
+
+    <div class="box" id="box" onmouseover="mudarCor('orange') + mudarTextoPassa()" onmouseout="mudarCor('#2eb0c7') + mudarTextoFora()" onclick="mudarCor('green') + mudarTextoClique()" ondblclick="mudarCor('purple') + mudarTextoDoisCliques() + pergunta('Qual o seu nome?')"></div>
+    <div id="textonome">
+        <h1 id="texto" onmouseover="mudarCor('orange') + mudarTextoPassa()" onmouseout="mudarCor('#2eb0c7') + mudarTextoFora()" onclick="mudarCor('green') + mudarTextoClique()" ondblclick="mudarCor('purple') + mudarTextoDoisCliques()">passe o mouse em cima do bloco</h1>
+        <h1 id="nome" onmouseover="mudarCor('orange') + mudarTextoPassa()" onmouseout="mudarCor('#2eb0c7') + mudarTextoFora()" onclick="mudarCor('green') + mudarTextoClique()" ondblclick="mudarCor('purple') + mudarTextoDoisCliques()"></h1>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
