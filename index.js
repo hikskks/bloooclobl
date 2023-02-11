@@ -2,7 +2,7 @@ function pergunta(pergunta){
     var nome = (prompt (pergunta));
 
     var elementoNome = document.getElementById("nome")
-    elementoNome.innerText = "olá " + nome
+    elementoNome.innerText = nome
 }
 
 function mudarCor(cor){
@@ -31,6 +31,6 @@ function mudarTextoClique(){
 }
 
 function mudarTextoDoisCliques(){
-    var doiscliques = 'digite seu nome'
+    var doiscliques = 'olá'
     document.getElementById("texto").innerHTML = doiscliques
 }
